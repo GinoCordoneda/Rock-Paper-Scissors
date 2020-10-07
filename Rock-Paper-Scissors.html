@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Piedra papel o tijera</title>
+    <script src="Rock-Paper-Scissors.js"></script>
+    <link type="text/css" rel="stylesheet" href="CSS/Styles.css">
+    <script src="https://kit.fontawesome.com/60b90458fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="game">
+        <div class="Texto">
+            <p><strong>Elige tu opcion</strong></p>
+        </div>
+        <div class="Btns">
+            <a href="#" class="Botones" onclick="Opcion(0)"><i class="fas fa-hand-scissors"></i>Tijera</a>
+            <a href="#" class="Botones" onclick="Opcion(1);"><i class="fas fa-hand-rock"></i>Piedra</a>
+            <a href="#" class="Botones" onclick="Opcion(2);"><i class="fas fa-hand-paper"></i>Papel</a>
+        </div>
+    </div>
+    <div id="loading" style="display: none">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+</body>
+</html>
